@@ -94,7 +94,7 @@ Array.from(arrayLike, x => x * x);
 // 等同于
 Array.from(arrayLike).map(x => x * x);
 
-Array.from([1, 2, 3], (x) => x * x)
+Array.from([1, 2, 3], (x) => x * x);
 // [1, 4, 9]
 ```
 
